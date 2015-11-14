@@ -3,7 +3,7 @@ MAINTAINER Zhong Pei <zhongpei@vip.qq.com>
 
 
 
-RUN apk --update add mysql-client \
+RUN apk --update add mysql-client python\
 	&& rm -rf /var/cache/apk/*
 
 CMD ["mysql"]
