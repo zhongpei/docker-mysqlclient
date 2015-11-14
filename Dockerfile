@@ -6,4 +6,4 @@ MAINTAINER Zhong Pei <zhongpei@vip.qq.com>
 RUN apk --update add mysql-client \
 	&& rm -rf /var/cache/apk/*
 
-ENTRYPOINT ["mysql"]
+CMD ["mysql"]
